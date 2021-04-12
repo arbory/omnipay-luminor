@@ -1,6 +1,7 @@
 {
     "name": "arbory/omnipay-luminor",
     "description": "Luminor omnipay package",
+    "license": "MIT",
     "type": "library",
     "authors": [
       {
