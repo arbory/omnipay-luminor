@@ -1,0 +1,23 @@
+{
+    "name": "arbory/omnipay-luminor",
+    "description": "Luminor omnipay package",
+    "type": "library",
+    "authors": [
+      {
+        "name": "Miks Mikelsons",
+        "email": "miks@cubesystems.lv"
+      }
+    ],
+    "autoload": {
+      "psr-4": { "Omnipay\\Luminor\\" : "src/" }
+    },
+    "require": {
+      "omnipay/common": "~3.0"
+    },
+    "require-dev": {
+      "omnipay/tests": "~3.0",
+      "squizlabs/php_codesniffer": "^3",
+      "phpro/grumphp": "^1",
+      "php-coveralls/php-coveralls": "^2"
+    }
+}
